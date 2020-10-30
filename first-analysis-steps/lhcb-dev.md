@@ -261,12 +261,12 @@ If you want to take a look the source code, without checking it out, you can
 easily access the repository through the [GitLab web
 interface](https://gitlab.cern.ch/lhcb). This website also provides search
 functionality, but the output is not always easy to read, especially if it
-returns many hits. To search a project much quicker, you can use `Lbglimpse`.
+returns many hits. To search a project much quicker, you can use `lb-glimpse`.
 It allows you to search for a given string in the source code of a particular
 LHCb project.
 
 ```bash
-Lbglimpse "PVRefitter" DaVinci v45r1
+lb-glimpse "PVRefitter" DaVinci/v45r1
 ```
 This works with every LHCb project and released version. Since it's a shell
 command, you can easily process the output using `less`, `grep`, and other
